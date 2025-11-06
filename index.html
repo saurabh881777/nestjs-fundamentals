@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TuteDude – HTML Learning Demo Page</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Welcome to <mark>TuteDude</mark>!</h1>
+    <p><em>Learn HTML</em> and <strong>build your first webpage</strong> with us!</p>
+
+    <nav>
+      <a href="#about">About</a> |
+      <a href="#menu">Menu</a> |
+      <a href="#trivia">Trivia</a> |
+      <a href="#extras">Extras</a> |
+      <a href="#feedback">Feedback</a>
+    </nav>
+
+    <figure>
+      <img src="https://via.placeholder.com/600x250" alt="Learning with TuteDude">
+      <figcaption>Master HTML in <time datetime="2025">2025</time> with TuteDude!</figcaption>
+    </figure>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <article>
+        <h2>About TuteDude</h2>
+        <p>TuteDude is an online learning platform created in <time datetime="2020">2020</time> to help students learn <abbr title="HyperText Markup Language">HTML</abbr> effectively.</p>
+        <p>Our mission is to make web learning simple and practical for beginners.</p>
+        <blockquote>
+          “Learning never exhausts the mind.” – <cite>Leonardo da Vinci</cite>
+        </blockquote>
+      </article>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu">
+      <h2>Menu – HTML Course Topics</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Topic</th>
+            <th>Duration</th>
+            <th>Difficulty</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML Basics</td>
+            <td>2 Hours</td>
+            <td>Easy</td>
+            <td>
+              <table border="1">
+                <tr><th>Subtopic</th><th>Time</th></tr>
+                <tr><td>Tags</td><td>30 min</td></tr>
+                <tr><td>Attributes</td><td>30 min</td></tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>Tables & Forms</td>
+            <td>3 Hours</td>
+            <td>Medium</td>
+            <td>
+              <table border="1">
+                <tr><th>Subtopic</th><th>Time</th></tr>
+                <tr><td>Table Structure</td><td>1 hr</td></tr>
+                <tr><td>Form Elements</td><td>2 hr</td></tr>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr><td colspan="4">Continue practicing daily for mastery!</td></tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <!-- TRIVIA SECTION -->
+    <section id="trivia">
+      <h2>HTML Trivia</h2>
+      <aside>
+        <details>
+          <summary>Did you know?</summary>
+          <p>The first ever webpage was published in <time datetime="1991">1991</time> by <strong>Tim Berners-Lee</strong> at CERN.</p>
+        </details>
+      </aside>
+    </section>
+
+    <!-- EXTRAS SECTION -->
+    <section id="extras">
+      <h2>Extras – Media Examples</h2>
+      <p>HTML can handle different types of media:</p>
+      <audio controls>
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <br><br>
+
+      <video width="400" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- FEEDBACK FORM -->
+    <section id="feedback">
+      <h2>Feedback Form</h2>
+      <form>
+        <fieldset>
+          <legend>We value your feedback!</legend>
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required><br><br>
+
+          <label for="topic">Favorite Topic:</label>
+          <select id="topic">
+            <option>HTML Basics</option>
+            <option>Tables & Forms</option>
+            <option>Media Tags</option>
+          </select><br><br>
+
+          <label for="comments">Comments:</label><br>
+          <textarea id="comments" rows="4" cols="40"></textarea><br><br>
+
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <address>Contact us: support@tutedude.com</address>
+    <p>&copy; <time datetime="2025">2025</time> TuteDude Learning. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
